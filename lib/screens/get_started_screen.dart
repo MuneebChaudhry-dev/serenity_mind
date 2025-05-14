@@ -67,7 +67,10 @@ class GetStartedScreen extends StatelessWidget {
                             ),
                           ),
                           onPressed: () {
-                            Navigator.pushNamed(context, '/onboarding');
+                            Navigator.pushReplacementNamed(
+                              context,
+                              '/personal_info',
+                            );
                           },
                           child: const Text(
                             'GET STARTED',
