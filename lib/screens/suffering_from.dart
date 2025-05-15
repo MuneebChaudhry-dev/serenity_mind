@@ -24,7 +24,7 @@ class _SufferingFromScreenState extends State<SufferingFromScreen> {
     if (selectedCondition == null) return;
     final prefs = await SharedPreferences.getInstance();
     await prefs.setString('suffering_from', selectedCondition!);
-    Navigator.pushNamed(context, '/next_screen');
+    Navigator.pushNamed(context, '/before_begin');
   }
 
   @override
