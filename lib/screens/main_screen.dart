@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:serenity_mind/screens/talk_screen.dart';
 import '../widgets/background.dart';
 import '../widgets/custom_bottom_nav_bar.dart';
 import 'home/home_screen.dart';
@@ -17,7 +18,7 @@ class _MainScreenState extends State<MainScreen> {
   final List<Widget> _screens = [
     const HomeScreen(),
     Placeholder(), // Will be replaced with other screens
-    Placeholder(),
+    const TalkScreen(),
     Placeholder(),
     Placeholder(),
   ];

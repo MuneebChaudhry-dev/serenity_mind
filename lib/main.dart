@@ -4,6 +4,7 @@ import 'package:serenity_mind/screens/home.dart';
 import 'package:serenity_mind/screens/main_screen.dart';
 import 'package:serenity_mind/screens/personal_info_screen.dart';
 import 'package:serenity_mind/screens/suffering_from.dart';
+import 'package:serenity_mind/screens/talk_screen.dart';
 import 'screens/splash_screen.dart';
 import 'screens/get_started_screen.dart';
 // import 'screens/onboarding_screen.dart'; // your next step
@@ -29,6 +30,7 @@ class SerenityMindApp extends StatelessWidget {
         '/suffering_from': (_) => const SufferingFromScreen(),
         '/before_begin': (_) => const BeforeBeginScreen(),
         '/home': (_) => const MainScreen(),
+        '/talk': (_) => const TalkScreen(),
         // … other routes
       },
     );
