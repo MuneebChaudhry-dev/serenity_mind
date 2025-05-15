@@ -38,7 +38,7 @@ class _PersonalInfoScreenState extends State<PersonalInfoScreen> {
 
     setState(() => _saving = false);
     // Navigate to the next screen:
-    Navigator.pushNamed(context, '/disorder_check');
+    Navigator.pushNamed(context, '/suffering_from');
   }
 
   @override

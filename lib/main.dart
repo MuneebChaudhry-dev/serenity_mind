@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:serenity_mind/screens/personal_info_screen.dart';
+import 'package:serenity_mind/screens/suffering_from.dart';
 import 'screens/splash_screen.dart';
 import 'screens/get_started_screen.dart';
 // import 'screens/onboarding_screen.dart'; // your next step
@@ -22,7 +23,7 @@ class SerenityMindApp extends StatelessWidget {
         '/': (_) => const SplashScreen(),
         '/get_started': (_) => const GetStartedScreen(),
         '/personal_info': (_) => const PersonalInfoScreen(),
-        // '/disorder_check': (_) => const DisorderCheckScreen(),
+        '/suffering_from': (_) => const SufferingFromScreen(),
         // … other routes
       },
     );
