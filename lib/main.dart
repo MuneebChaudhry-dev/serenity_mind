@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:serenity_mind/before_begin.dart';
+import 'package:serenity_mind/screens/before_begin.dart';
+import 'package:serenity_mind/screens/home.dart';
+import 'package:serenity_mind/screens/main_screen.dart';
 import 'package:serenity_mind/screens/personal_info_screen.dart';
 import 'package:serenity_mind/screens/suffering_from.dart';
 import 'screens/splash_screen.dart';
@@ -26,6 +28,7 @@ class SerenityMindApp extends StatelessWidget {
         '/personal_info': (_) => const PersonalInfoScreen(),
         '/suffering_from': (_) => const SufferingFromScreen(),
         '/before_begin': (_) => const BeforeBeginScreen(),
+        '/home': (_) => const MainScreen(),
         // … other routes
       },
     );

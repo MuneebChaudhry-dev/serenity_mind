@@ -61,7 +61,7 @@ class GetStartedScreen extends StatelessWidget {
                         child: ElevatedButton(
                           style: ElevatedButton.styleFrom(
                             elevation: 8,
-                            backgroundColor: Colors.white.withOpacity(0.9),
+                            backgroundColor: Colors.white,
                             shape: RoundedRectangleBorder(
                               borderRadius: BorderRadius.circular(32),
                             ),

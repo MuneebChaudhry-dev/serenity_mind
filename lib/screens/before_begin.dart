@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../widgets/background.dart';
+import '../../widgets/background.dart';
 
 class BeforeBeginScreen extends StatelessWidget {
   const BeforeBeginScreen({Key? key}) : super(key: key);
@@ -27,10 +27,7 @@ class BeforeBeginScreen extends StatelessWidget {
                 const SizedBox(height: 8),
                 const Text(
                   'Take a moment to answer some questions or skip if you prefer.',
-                  style: TextStyle(
-                    color: Colors.white70,
-                    fontSize: 16,
-                  ),
+                  style: TextStyle(color: Colors.white70, fontSize: 16),
                   textAlign: TextAlign.center,
                 ),
                 const Spacer(),
@@ -39,7 +36,7 @@ class BeforeBeginScreen extends StatelessWidget {
                   height: 52,
                   child: ElevatedButton(
                     onPressed: () {
-                      Navigator.pushNamed(context, '/personal_info');
+                      Navigator.pushNamed(context, '/questionnaire');
                     },
                     style: ElevatedButton.styleFrom(
                       backgroundColor: const Color.fromRGBO(78, 129, 112, 1),
@@ -66,7 +63,7 @@ class BeforeBeginScreen extends StatelessWidget {
                       Navigator.pushNamed(context, '/home');
                     },
                     style: ElevatedButton.styleFrom(
-                      backgroundColor: const Color.fromRGBO(255, 255, 255, 0.6),
+                      backgroundColor: const Color.fromARGB(255, 255, 255, 255),
                       shape: RoundedRectangleBorder(
                         borderRadius: BorderRadius.circular(32),
                       ),
@@ -84,10 +81,7 @@ class BeforeBeginScreen extends StatelessWidget {
                 const SizedBox(height: 24),
                 const Text(
                   'Note: You can answer the questions later in the app as well.',
-                  style: TextStyle(
-                    color: Colors.white70,
-                    fontSize: 14,
-                  ),
+                  style: TextStyle(color: Colors.white70, fontSize: 14),
                   textAlign: TextAlign.center,
                 ),
                 const SizedBox(height: 24),
