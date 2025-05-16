@@ -1,10 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:serenity_mind/screens/before_begin.dart';
 import 'package:serenity_mind/screens/home.dart';
+import 'package:serenity_mind/screens/journal_screen.dart';
 import 'package:serenity_mind/screens/main_screen.dart';
 import 'package:serenity_mind/screens/personal_info_screen.dart';
+import 'package:serenity_mind/screens/self_care_screen.dart';
 import 'package:serenity_mind/screens/suffering_from.dart';
 import 'package:serenity_mind/screens/talk_screen.dart';
+import 'package:serenity_mind/screens/therapit_screen.dart';
 import 'screens/splash_screen.dart';
 import 'screens/get_started_screen.dart';
 // import 'screens/onboarding_screen.dart'; // your next step
@@ -31,6 +34,9 @@ class SerenityMindApp extends StatelessWidget {
         '/before_begin': (_) => const BeforeBeginScreen(),
         '/home': (_) => const MainScreen(),
         '/talk': (_) => const TalkScreen(),
+        '/therapist': (_) => const GetTherapistScreen(),
+        '/journel': (_) => JournalScreen(),
+        '/self_care': (_) => SelfCareScreen(),
         // … other routes
       },
     );

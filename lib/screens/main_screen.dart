@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:serenity_mind/screens/journal_screen.dart';
+import 'package:serenity_mind/screens/self_care_screen.dart';
 import 'package:serenity_mind/screens/talk_screen.dart';
+import 'package:serenity_mind/screens/therapit_screen.dart';
 import '../widgets/background.dart';
 import '../widgets/custom_bottom_nav_bar.dart';
 import 'home/home_screen.dart';
@@ -17,10 +20,10 @@ class _MainScreenState extends State<MainScreen> {
 
   final List<Widget> _screens = [
     const HomeScreen(),
-    Placeholder(), // Will be replaced with other screens
+    const GetTherapistScreen(), // Will be replaced with other screens
     const TalkScreen(),
-    Placeholder(),
-    Placeholder(),
+    SelfCareScreen(),
+    JournalScreen(),
   ];
 
   void _onItemTapped(int index) {
