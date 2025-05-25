@@ -271,7 +271,7 @@ class _TalkScreenState extends State<TalkScreen>
         child: CustomBottomNavBar(
           currentIndex: 2, // Index for "Talk"
           onTap: (index) {
-            // Handle bottom nav navigation externally
+           
           },
         ),
       ),

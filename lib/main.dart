@@ -4,6 +4,7 @@ import 'package:serenity_mind/screens/home.dart';
 import 'package:serenity_mind/screens/journal_screen.dart';
 import 'package:serenity_mind/screens/main_screen.dart';
 import 'package:serenity_mind/screens/personal_info_screen.dart';
+import 'package:serenity_mind/screens/questionnaire.dart';
 import 'package:serenity_mind/screens/self_care_screen.dart';
 import 'package:serenity_mind/screens/suffering_from.dart';
 import 'package:serenity_mind/screens/talk_screen.dart';
@@ -37,6 +38,7 @@ class SerenityMindApp extends StatelessWidget {
         '/therapist': (_) => const GetTherapistScreen(),
         '/journel': (_) => JournalScreen(),
         '/self_care': (_) => SelfCareScreen(),
+        '/questionnaire': (_) => const QuestionnaireScreen(),
         // … other routes
       },
     );
